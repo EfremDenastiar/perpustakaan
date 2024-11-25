@@ -75,7 +75,7 @@ class _AddBookPageState extends State<AddBookPage> {
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Judul tidak boleh kosong!';
+                    return 'Judul Dilarang kosong!';
                   }
                   return null;
                 },
@@ -94,7 +94,7 @@ class _AddBookPageState extends State<AddBookPage> {
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Penulis tidak boleh kosong!';
+                    return 'Penulis Dilarang kosong!';
                   }
                   return null;
                 },
@@ -110,7 +110,7 @@ class _AddBookPageState extends State<AddBookPage> {
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Deskripsi tidak boleh kosong!';
+                    return 'Deskripsi Dilarang kosong!';
                   }
                   return null;
                 },
